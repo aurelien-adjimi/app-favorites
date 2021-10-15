@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="app2.css">
+    <title>Vantage Fx</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Titre-->
+        <p>Vantage Fx</p>
+        <!--Navbar-->
+        <ul>
+            <li><a href="#conteneur1">Présentation</a></li>
+            <li><a href="#conteneur2">Utilisation</a></li>
+            <li><a href="#pourquoi">Pourquoi j'aime cette appli</a></li>
+            <li style="float:right"><a class="dll" href="#footer">Télécharger</a></li>
+            <li class="deroulant" style="float:right">
+                <a href="javascript:void(0)" class="drop">Mes Apps</a>
+                <i class="fas fa-chevron-down"></i>
+                <div class="contenu-menu">
+                    <a href="app1.html">Apple Music</a>
+                    <a href="app2.html">Vantage FX</a>
+                    <a href="app3.html">Twitter</a>
+                    <a href="app4.html">8 Ball Pool</a>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <!--Main-->
+    <main>
+        <!--Conteneur1-->
+        <div id="conteneur1">
+            <h1>Présentation</h1>
+            <div class="presentation">
+                <p>Vantage Fx est un broker de trading fondé en Australie qui voit le jour en 2009.<br>
+                    Ce broker fait partie des plus compétents sur le marché. En effet, comparé à d'autres, Vantage nous
+                    permet d'investir ou spéculer sur l'ensemble des actifs disponibles.<br>
+                    Forex, Cryptos, Actions, Indices Boursiers, Métaux et Matières Premières composent cet ensemble.<br>
+                    Bien sur, pour chacune de ces catégories, les investissements et/ou spéculations ont leurs propres
+                    spécificités, qu'il serait trop long de définir ici.
+                </p>
+                <div class="logo-vantage">
+                    <img
+                        src="data:image/png;base64,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" />
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <!--Conteneur2-->
+        <h1>Utilisation</h1>
+        <p>Comme pour Apple Music, l'application est simple et intuitive et se compose de cinq onglets. Le cinquième
+            étant composé de mes informations personnelles, je ne vous le présenterais pas.</p>
+        <!--Les Screenshots-->
+        <div id="conteneur2">
+            <div class="boite1">
+                <h3>L'onglet "Accueil":</h3>
+                <img class="accueil" src="Accueil.jpeg" />
+                <p>Cet onglet nous propose les dernières informations et les offres proposées par le broker.</p>
+            </div>
+            <div class="boite2">
+                <h3>L'onglet "Transactions":</h3>
+                <img class="explorer" src="Transactions.jpeg" />
+                <p>Cet onglet nous affiche l'ensemble des devises, indices, actions etc</p>
+            </div>
+        </div><br><br><br>
+        <div id="conteneur3">
+            <div class="boite3">
+                <h3>L'onglet "Ordres":</h3>
+                <img class="radio" src="Ordres.jpeg" />
+                <p>Dans cet onglet nous pouvons retrouver l'ensemble<br>de nos ordres en cours, en attente ou même
+                    l'historique.</p>
+            </div>
+            <div class="boite4">
+                <h3>L'onglet "Signaux":</h3>
+                <img class="signaux" src="Signaux.jpeg" />
+                <p>Cet onglet-ci regroupe l'ensemble des signaux proposés par le broker.<br>Un signal est une alerte qui
+                    nous informe que le marché en question est chaud<br>et qu'il peut être intéressant de l'analyser et
+                    de se positionner.</p>
+            </div>
+        </div><br><br><br>
+        <div id="conteneur4">
+            <div class="boite5">
+                <h3>Les graphiques:</h3>
+                <img class="graphiques" src="Graphique.jpeg" />
+                <p>Voici à quoi ressemble un graphique de suivi de l'évolution d'une entité. Ici le Bitcoin.</p>
+            </div>
+            <div class="boite6">
+                <h3>Le calendrier économique</h3>
+                <img class="marché" src="Calendrier.jpeg">
+                <p>Le calendrier économique est très important dans ce domaine.<br>En fonction des annonces prévues, le
+                    marché va être plus ou moins volatile<br>et c'est un bon indicateur pour savoir quand se
+                    positionner.</p>
+            </div>
+        </div><br><br><br>
+        <div id="pourquoi">
+            <div class="pourquoi">
+                <h1>Pourquoi j'aime cette application?</h1>
+                <p>Je me suis lancé dans le trading il y a de ça un peu plus d'un an. Dans un premier temps en
+                    rejoignant une académie, puis, aujourd'hui, par mes propres moyens.</p>
+                <p>Après avoir essayé plusieurs broker, j'ai trouvé mon bonheur dans Vantage Fx car le site, comme
+                    l'appli, sont efficaces et le service client et technique sont très réactifs.</p>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div id="footer">
+            <div class="logos-footer">
+                <a href="https://fr-fr.facebook.com/VantageFXBroker/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/vantagefxofficial/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/vantagefx?lang=fr"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="liens-dll">
+                <a href="https://apps.apple.com/fr/app/vantage-fx-forex-trading/id1457929724">Télécharger sur iOs</a>
+                <a href="https://play.google.com/store/apps/details?id=cn.com.vau&hl=fr&gl=US">Télécharger
+                    sur Androïd</a>
+            </div>
+        </div>
+    </footer>
+</body>

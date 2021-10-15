@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="app1.css">
+    <title>Apple Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Titre-->
+        <p>Apple Music</p>
+        <!--Navbar-->
+        <ul>
+            <li><a href="#conteneur1">Présentation</a></li>
+            <li><a href="#conteneur2">Utilisation</a></li>
+            <li><a href="#pourquoi">Pourquoi j'aime cette appli</a></li>
+            <li style="float:right"><a class="dll" href="#footer">Télécharger</a></li>
+            <li class="deroulant" style="float:right">
+                <a href="javascript:void(0)" class="drop">Mes Apps</a>
+                <i class="fas fa-chevron-down"></i>
+                <div class="contenu-menu">
+                    <a href="app1.html">Apple Music</a>
+                    <a href="app2.html">Vantage FX</a>
+                    <a href="app3.html">Twitter</a>
+                    <a href="app4.html">8 Ball Pool</a>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <!--Main-->
+    <main>
+        <!--Conteneur1-->
+        <div id="conteneur1">
+            <h1>Présentation</h1>
+            <div class="presentation">
+                <p>Apple Music voit le jour le 30 juin 2015, suite au rachat de Beats par la marque à la pomme.<br>
+                    Initialement prévue pour les utilisateurs d'Apple, aujourd'hui, Apple Music est disponible sur iOs,
+                    Androïd, Web, Windows mais aussi avec Alexa.<br>
+                    Toujours en quête d'expansion, les services ne cessent de fleurir, intégrant au fil du temps, de
+                    plus en plus de radios, des émissions, des séries, des concerts, une chaine de télé…<br>
+                    En mai 2021, Apple offre une meilleure qualité sonore avec le codec ALAC et de l'audio Dolby Atmos.
+                </p>
+                <div class="logo-apple-music">
+                    <img
+                        src="data:image/jpeg;base64,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" />
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <!--Conteneur2-->
+        <h1>Utilisation</h1>
+        <p>L'application est très simple et intuitive. Il y a cinq onglets en bas d'écran comme vous pouvez le constater
+            sur les différents screenshots</p>
+        <!--Les Screenshots-->
+        <div id="conteneur2">
+            <div class="boite1">
+                <h3>L'onglet "Ecouter":</h3>
+                <img class="ecouter" src="Ecouter.jpeg" />
+                <p>Cet onglet nous propose les dernières musiques et playlists<br>écoutées ainsi qu'une suggestion faite
+                    par
+                    l'algorithme de l'appli en fonction de nos goûts.</p>
+            </div>
+            <div class="boite2">
+                <h3>L'onglet "Explorer":</h3>
+                <img class="explorer" src="Explorer.jpeg" />
+                <p>Cet onglet nous propose également des playlist en fonction de nos goûts<br>mais aussi de nombreuses
+                    interview, les nouveautés de la semaine<br>et un thème musical par jour.</p>
+            </div>
+        </div><br><br><br>
+        <div id="conteneur3">
+            <div class="boite3">
+                <h3>L'onglet "Radio":</h3>
+                <img class="radio" src="Radio.jpeg" />
+                <p>Comme son nom l'indique,<br>dans cet onglet ci on se voit proposer des radios par thèmes<br>avec en
+                    priorité
+                    les radios plus succeptibles de nous plaire</p>
+            </div>
+            <div class="boite4">
+                <h3>L'onglet "Bibliothèque":</h3>
+                <img class="bibli" src="Bibliothèque.jpeg" />
+                <p>La bibliothèque est tout simplement notre repertoire musical,<br>où on peut retrouver nos musiques
+                    téléchargées ainsi que nos playlists.<br>D'ailleurs vous pourrez retrouver plus bas une petite liste
+                    des playlists<br>que j'ai créee et
+                    que j'adore !</p>
+            </div>
+        </div><br><br><br>
+        <div id="conteneur4">
+            <div class="boite5">
+                <h3>L'onglet "Rechercher":</h3>
+                <img class="rechercher" src="Rechercher.jpeg" />
+                <p>L'onglet recherche nous permet simplement de chercher<br>la musqiue que l'on souhaite.<br>Que ce soit
+                    par
+                    thèmes ou juste en tapant le nom<br>de l'artiste ou le titre de la musique désirée.</p>
+            </div>
+            <div class="boite6">
+                <h3>Mes playlists</h3>
+                <a href="https://music.apple.com/fr/playlist/rap-90-00/pl.u-DdAN8Peljelb7Y">Rap 90-00</a><br><br><br><br>
+                <a href="https://music.apple.com/fr/playlist/techno/pl.u-e98lGLls26WYmp">Techno</a><br><br><br><br>
+                <a href="https://music.apple.com/fr/playlist/jul-NRV/pl.u-DdANrkdtjelb7Y">Jul</a><br><br><br><br>
+                <a href="https://music.apple.com/fr/playlist/afro/pl.u-38oWXzlsvGg7Aj">Afro</a><br><br><br><br>
+            </div>
+        </div><br><br><br>
+        <div id="pourquoi">
+        <div class="pourquoi">
+            <h1>Pourquoi j'aime cette application?</h1>
+            <p>Etant un grand amateur de musique en tout genre, c'est tout naturellement que je commence ce projet en
+                présentant l'application Apple Music.</p>
+            <p>J'ai essayé plusieurs plateformes de streaming de musique, notamment Deezer, Spotify et Napster. Mais
+                aucune ne m'a satisfaite autant qu'Apple Music. Le desing de l'interface ainsi que la multitude
+                d'artistes présents sur cette plateforme en font pour moi, la N°1 des platerformes de streaming.</p>
+        </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div id="footer">
+            <div class="logos-footer">
+                <a href="https://fr-fr.facebook.com/applemusic/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/applemusic/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/AppleMusic?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                        class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="liens-dll">
+                <a href="https://apps.apple.com/fr/app/musique/id1108187390">Télécharger sur iOs</a>
+                <a href="https://play.google.com/store/apps/details?id=com.apple.android.music&hl=fr&gl=US">Télécharger
+                    sur Androïd</a>
+            </div>
+        </div>
+    </footer>
+</body>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="app-favorites.css">
+  <title>App Favorites</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <!--Titre-->
+    <p>Mes Applications Favorites</p>
+    <!--Menu déroulant-->
+    <ul>
+      <li class="deroulant">
+        <a href="javascript:void(0)" class="drop">Mes Apps</a>
+        <i class="fas fa-chevron-down"></i>
+        <div class="contenu-menu">
+          <a href="app1.html">Apple Music</a>
+          <a href="app2.html">Vantage FX</a>
+          <a href="app3.html">Twitter</a>
+          <a href="app4.html">8 Ball Pool</a>
+        </div>
+      </li>
+    </ul>
+  </header>
+  <!--Main-->
+  <main>
+    <!--Texte page d'accueil-->
+    <div class="texte-accueil">
+      <p>Sur cette page vous pouvez découvrir quelles sont mes quatre applications favorites. Je pense que ça vous donne
+        une
+        petite idée de ma personnalité et de ce que j'aime faire dans la vie (du moins en partie).<br>
+        Amusez vous à cliquer sur les photos pour découvrir chaque application, ou servez-vous directement du menu.</p>
+      <br>
+      <br>
+    </div>
+    <!--Début des photos d'app-->
+    <div id="conteneur-accueil">
+      <!--Photo Apple Music-->
+      <div class="app1">
+        <a href="https://www.apple.com/fr/apple-music/"><img
+            src="https://img.phonandroid.com/2021/05/apple-music-musique-plus-jamais-meme.jpg"></a>
+        <p>Apple Music</p>
+      </div>
+      <!--Photo Vantage-->
+      <div class="app2">
+        <a href="https://www.vantagefx.com/"><img
+            src="https://drtrader.com/wp-content/uploads/2018/12/vantage-fx-e1561923785247.jpg"></a>
+        <p>Vantage FX</p>
+      </div>
+    </div>
+    <div id="conteneur-accueil2">
+      <!--Photo Twitter-->
+      <div class="app3">
+        <a href="https://twitter.com/?lang=fr"><img
+            src="data:image/png;base64,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"></a>
+        <p>Twitter</p>
+      </div>
+      <!--Photo 8ball-->
+      <div class="app4">
+        <a href="https://www.jeux.fr/jeu/8-ball-pool"><img
+            src="https://images-na.ssl-images-amazon.com/images/I/81OMgLAhLCL.png"></a>
+        <p>8 Ball Pool</p>
+      </div>
+    </div>
+  </main>
+  <!--Footer-->
+  <footer>
+
+  </footer>
+</body>

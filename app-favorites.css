@@ -1,0 +1,173 @@
+header {
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+  background-image: url(https://previews.123rf.com/images/peshkov/peshkov1803/peshkov180300025/96913928-creative-glowing-digital-head-wallpaper-robotics-and-cyberspace-concept-3d-rendering.jpg);
+  background-size: 200%;
+}
+
+header p {
+  padding-top: 60px;
+  font-size: 45px;
+  color: whitesmoke;
+  text-decoration: underline;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+}
+to {
+  margin-left: 0%;
+  width: 100%;
+}
+}
+
+header .deroulant {
+  text-align: right;
+}
+
+.texte-accueil p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  color: #518AC6;
+  font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: right;
+    margin-right: 50px;
+  }
+  
+li a, .drop {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover, .deroulant:hover .drop {
+    background-color: white;
+  }
+  
+li.deroulant {
+    display: inline-block;
+  }
+  
+.contenu-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.contenu-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.contenu-menu a:hover {background-color: #f1f1f1;}
+  
+.deroulant:hover .contenu-menu {
+    display: block;
+  }
+
+.deroulant a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: black;
+  }
+
+.deroulant a:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+  }
+
+
+#conteneur-accueil img {
+width: 250px;
+height: 250px
+  }
+
+#conteneur-accueil .app1 p {
+  text-align: center;
+  background-color: whitesmoke;
+  color: #518AC6;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#conteneur-accueil .app2 p {
+  text-align: center;
+  background-color: whitesmoke;
+  color: #518AC6;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#conteneur-accueil2 img {
+    width: 250px;
+    height: 250px
+      }
+
+#conteneur-accueil2 .app3 p {
+  text-align: center;
+  background-color: whitesmoke;
+  color: #518AC6;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#conteneur-accueil2 .app4 p {
+  text-align: center;
+  background-color: whitesmoke;
+  color: #518AC6;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#conteneur-accueil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-content: center;
+  }
+
+#conteneur-accueil2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-content: center;
+  }

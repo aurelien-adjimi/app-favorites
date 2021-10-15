@@ -1,0 +1,289 @@
+header {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.15398.13690571333869691.07d3b9f1-4244-4764-a130-d6f9f737924a.c0c8a959-f1c1-414b-9807-74fbe9f7f238?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg);
+    background-size: 100%;
+  }
+  
+  header p {
+    padding-top: 60px;
+    font-size: 45px;
+    color: whitesmoke;
+    text-decoration: underline;
+    animation-duration: 3s;
+    animation-name: slidein;
+    text-align: left;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
+  
+  body {
+    background-color: rgb(4, 87, 4);
+  }
+
+  body p {
+      color: blanchedalmond;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid black;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .dll {
+    background-color: rgb(250, 125, 23) ;
+  }
+  
+  header .deroulant {
+    text-align: right;
+  }
+  
+  li a, .drop {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .deroulant:hover .drop {
+    background-color: black;
+  }
+  
+  li.deroulant {
+    display: inline-block;
+  }
+  
+  .contenu-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .contenu-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .contenu-menu a:hover {background-color: black;}
+  
+  .deroulant:hover .contenu-menu {
+    display: block;
+  }
+  
+  .deroulant a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+  
+  .deroulant a:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+  }
+  
+  #conteneur1 {
+      display: inline-block;
+      justify-content: space-between;
+  }
+  
+  #conteneur1 h1 {
+      text-align: center;
+      background-color: yellow;
+      color: black;
+  }
+
+  .util {
+      background-color: purple;
+      color: black;
+  }
+
+  #pourquoi h1 {
+      background-color: rgb(204, 19, 19);
+      color: black;
+  }
+  
+  #conteneur1 .presentation {
+      display: flex;
+      text-align: left;
+      text-justify: auto;
+  }
+  
+  #conteneur1 .presentation p {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 14px;
+      margin-top: 50px;
+  }
+  
+  #conteneur1 .logo-8ball img {
+    float: right;
+    height: 150px;
+    width: 150px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #8AF5F8;
+    color: whitesmoke;
+  }
+  
+  #conteneur2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  #conteneur2 .boite1 {
+    flex-direction: column;
+  }
+  
+  #conteneur2 .boite1 h3 {
+  text-align: left;
+  }
+  
+  #conteneur2 .boite1 img {
+    width: 640px;
+    height: 350px;
+  }
+  
+  #conteneur2 .boite1 p {
+    text-align: left;
+    text-justify: auto;
+    }
+  
+  #conteneur2 .boite2 {
+    flex-direction: column;
+    }
+  
+  #conteneur2 .boite2 h3 {
+    text-align: right;
+  }
+  
+  #conteneur2 .boite2 img {
+    width: 640px;
+    height: 350px;
+    float: right;
+  }
+  
+  #conteneur2 .boite2 p {
+    text-align: right;
+    float: right;
+  }
+  
+  #conteneur3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  #conteneur3 .boite3 {
+    flex-direction: column;
+  }
+  
+  #conteneur3 .boite3 h3 {
+    text-align: left;
+  }
+  
+  #conteneur3 .boite3 img {
+    width: 640px;
+    height: 350px;  
+    float: left;
+  }
+  
+  #conteneur3 .boite3 p {
+    text-align: left;
+    text-justify: auto;
+    float: left;
+    }
+  
+  #conteneur3 .boite4 {
+    flex-direction: column;
+  }
+  
+  #conteneur3 .boite4 h3 {
+    text-align: right;
+  }
+  
+  #conteneur3 .boite4 img {
+    width: 640px;
+    height: 350px;
+    float: right;
+  }
+  
+  #conteneur3 .boite4 p {
+    text-align: right;
+    text-justify: auto; 
+    float: right;
+  }
+  
+  p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  footer {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+    height: 80px;
+  }
+  
+  #footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logos-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  }
+  
+  .liens-dll {
+    text-align: center;
+    margin-top: 20px;
+  }

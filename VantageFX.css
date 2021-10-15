@@ -1,0 +1,90 @@
+header p {
+    padding-top: 60px;
+    font-size: 45px;
+    color: whitesmoke;
+    text-decoration: underline;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.dll {
+  background-color: #FA2138;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteneur2 img {
+    width: 250px;
+    height: 500px;
+}
+
+#conteneur2 {
+    display: inline-block;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+}
+
+#conteneur2 .ecouter {
+    text-align: left;
+}
+
+#conteneur2 .explorer {
+    text-align: right;
+}
+
+#conteneur2 .radio {
+    text-align: left;
+}
+
+#conteneur2 .bibli {
+    text-align: right;
+}
+
+#conteneur2 .rechercher {
+    text-align: left;
+}
